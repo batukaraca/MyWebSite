@@ -20,6 +20,7 @@ body {
 .fixed-top{
     max-width: 100%;
     margin:  20px 5%;
+    background-color: purple;
 }
 
 .nav-item{
@@ -49,14 +50,32 @@ h1 {
 /* CONTACT PART */
 
 #Contact{
-  height: 70%;
+  height: 100%;
+  background-color: yellow;
   font-family: 'Roboto', sans-serif;
 }
-.col-lg-4 {
-  padding-top: 15%;
+#Contact .col-lg-4 {
+  padding-top: 20%;
   color: #fff ;
 }
 h2 {
   color: black;
   font-size: 20px;
+}
+
+/* PROJECT PART */
+
+#Projects{
+  height: 100%;
+  padding-top: 50px;
+  background: url('../image/w2.jpg')center center fixed;
+  background-repeat: no-repeat;
+}
+.card {
+}
+.card-block h4 {
+  color: black !important;
+}
+.card-block p {
+  color: black !important;
 }
