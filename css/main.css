@@ -6,7 +6,6 @@ body {
 
 
 #Home{
-
   height: 100%;
   background: url('../image/w1.jpg') center center fixed;
   background-repeat: no-repeat;
@@ -16,17 +15,7 @@ body {
   background-size: cover;
   font-family: 'Roboto', sans-serif;
 }
-#Contact{
 
-  height: 100%;
-  background: url('../image/w2.jpg') center center fixed;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: 'Roboto', sans-serif;
-}
 
 .fixed-top{
     max-width: 100%;
@@ -40,6 +29,13 @@ body {
 .nav-link {
   font-size: 18px;
   color: #333;
+  -webkit-transition: color 0.6s ease;
+  -o-transition: color 0.6s ease;
+  -moz-transition: color 0.6s ease;
+  transition: color 0.7s ease;
+}
+.nav-link:hover{
+  color: white !important;
 }
 .navbar-brand{
   font-size: 22px;
@@ -50,7 +46,17 @@ h1 {
   margin-top: 50%;
   color: #fff;
 }
+/* CONTACT PART */
+
+#Contact{
+  height: 70%;
+  font-family: 'Roboto', sans-serif;
+}
+.col-lg-4 {
+  padding-top: 15%;
+  color: #fff ;
+}
 h2 {
-  margin-top: 150%;
-  color: #fff;
+  color: black;
+  font-size: 20px;
 }
